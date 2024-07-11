@@ -17,10 +17,11 @@ main {
   justify-content: center;
   align-items: center;
   width: 13%;
-  padding: 15px;
+  padding: 10px;
   border: none;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 15px 2px;
   position: relative;
+  border-radius: 10%;
 
   margin: 2% 5%;
   aspect-ratio: 1/1;
