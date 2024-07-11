@@ -1,13 +1,6 @@
 body {
-  background-image: url("https://img.pixers.pics/pho_wat(s3:700/FO/38/05/89/61/700_FO38058961_4e53a2f64513be6b89f314edb1c43f1d.jpg,700,495,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,445,jpg)/carte-da-parati-lavagna-vuota.jpg.jpg");
+  background-color: gray;
   font-family: "Playwrite CU", cursive;
-  background-size: cover; /* Assicura che l'immagine copra interamente l'elemento */
-  background-position: center; /* Centra l'immagine */
-  background-repeat: no-repeat; /* Evita che l'immagine si ripeta */
-  margin: 0; /* Rimuove i margini predefiniti del body */
-  padding: 0; /* Rimuove i padding predefiniti del body */
-  height: 100vh; /* Assicura che il body prenda tutta l'altezza della finestra */
-  width: 100%; /* Assicura che il body prenda tutta la larghezza della finestra */
 }
 
 main {
