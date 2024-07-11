@@ -21,15 +21,16 @@ main {
   border: none;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
   position: relative;
-  transform: rotate(9deg);
+
   margin: 2% 5%;
   aspect-ratio: 1/1;
   font-size: 1.2rem;
-  transition: transform 0.3s ease;
+  transition: transform 0.4s ease;
 }
 
 .postIt1 {
   background: linear-gradient(to bottom, rgba(247, 247, 197, 1), rgba(247, 247, 197, 0.2));
+  transform: rotate(-15deg);
 }
 
 .postIt2 {
@@ -39,16 +40,15 @@ main {
 
 .postIt3 {
   background: linear-gradient(to bottom, rgb(174, 146, 252), rgba(174, 146, 252, 0.5));
-  transform: rotate(-9deg);
+  transform: rotate(-20deg);
 }
 
 .postIt1 p,
 .postIt2 p,
 .postIt3 p {
   text-align: left;
-  margin: 0;
   width: 100%;
-  padding-left: 40px;
+  margin-left: 50px;
 }
 
 .postIt1 p:first-child,
@@ -60,5 +60,5 @@ main {
 .postIt1:hover,
 .postIt2:hover,
 .postIt3:hover {
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
